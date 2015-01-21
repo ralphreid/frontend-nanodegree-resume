@@ -72,7 +72,10 @@ var project = {
       "title": "TBCCCCCC",
       "dates": 2014,
       "description": "adsfdsffdssfsdfafddsafd",
-      "images": [ "http://google.com", "http://google.com" ],
+      "images": [
+        "http://google.com",
+        "http://google.com"
+      ],
       "githubUrl": "http://google.com",
       "url": "http://google.com"
     },
@@ -80,7 +83,10 @@ var project = {
       "title": "TBCCCCCC",
       "dates": 2014,
       "description": "adsfdsffdssfsdfafddsafd",
-      "images": [ "http://google.com", "http://google.com" ],
+      "images": [
+        "http://google.com",
+        "http://google.com"
+      ],
       "githubUrl": "http://google.com",
       "url": "http://google.com"
     }
