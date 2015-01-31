@@ -58,19 +58,9 @@ var work = {
   }]
 };
 
-var project = {
+var projects = {
   "projects": [{
     "title": "TBCCrrC",
-    "dates": 2014,
-    "description": "adsfdsffdssfsdfafddsafd",
-    "images": [
-      "http://placehold.it/350x150",
-      "http://placehold.it/350x150"
-    ],
-    "githubUrl": "http://google.com",
-    "url": "http://google.com"
-  }, {
-    "title": "TBCCCCCC",
     "dates": 2014,
     "description": "adsfdsffdssfsdfafddsafd",
     "images": [

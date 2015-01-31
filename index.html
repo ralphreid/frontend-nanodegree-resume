@@ -185,9 +185,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
         var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
         $(".project-entry:last").append(formattedDescription);
 
-        if (projects.projects[project],images.length > 0) {
+        if (projects.projects[project].images.length > 0) {
           for (var image in projects.projects[project].images) {
-            var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[projects.images[image]]);
+            var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
             $(".project-entry:last").append(formattedImage);
           }
         }
@@ -195,6 +195,8 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     };
 
     displayWork();
+
+    projects.display();
 
 
 
