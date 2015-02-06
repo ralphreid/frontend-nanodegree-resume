@@ -201,9 +201,13 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     // Above created during lessons
     // Below created after lessons
 
+
     bio.display = function() {
-      
+      var formattedName = HTMLheaderName.replace("%data%", bio.name);
+      $("#header").prepend(formattedName);
     };
+
+
 
     // Call functions to render data - created during lessons
 
