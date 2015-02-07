@@ -9,7 +9,7 @@ var bio = {
     "linkedin": "TBC",
     "location": "San Fransico, Seatle & London"
   },
-  "bioPic": "http://www.gravatar.com/avatar/e2facb589cd57f0a6cce781c06e41aa6.png",
+  "bioPic": "images/best.jpg",
   "welcome message": "put welcolme message here",
   "skills": ["javascript", "html", "ruby", "php"]
 };
