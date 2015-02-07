@@ -46,8 +46,7 @@ projects.display = function() {
     $(".project-entry:last").append(formattedDates);
 
     var formattedDescription = HTMLprojectDescription.replace("%data%",
-      projects
-      .projects[project].description);
+      projects.projects[project].description);
     $(".project-entry:last").append(formattedDescription);
 
     if (projects.projects[project].images.length > 0) {
@@ -78,18 +77,14 @@ bio.display = function() {
   var formattedHeaderRole = HTMLheaderRole.replace("%data%", bio.role);
   $(formattedHeaderRole).insertAfter($("#name"));
 
-  if (bio.hasOwnProperty('contacts')) {
-    for (contact in bio.contacts) {
-      console.log(contact);
+  for (var contact in bio.contacts) {
+    if (bio.hasOwnProperty("contacts")) {
+      var formattedContact = HTMLcontactGeneric.replace("%contact%", contact);
+      var formattedContact = formattedContact.replace("%data%", bio.contacts[
+        contact]);
+      $("#topContacts").append(formattedContact);
     }
-  };
-};
-
-
-
-var formattedContact = HTMLcontactGeneric.replace("%data%", "cool");
-var formattedContact = HTMLcontactGeneric.replace("%contact%", "cdddl");
-$(formattedContact).insertAfter($("#topContacts"));
+  }
 };
 
 

@@ -2,8 +2,8 @@ var bio = {
   "name": "Ralph Reid",
   "role": "Full Stack Engineer",
   "contacts": {
-    "mobileUK": "+447985057831",
-    "mobileUSA": "enter here",
+    "UK": "+447985057831",
+    "USA": "+17732450487",
     "github": "ralphreid",
     "twitter": "TBC",
     "linkedin": "TBC",
