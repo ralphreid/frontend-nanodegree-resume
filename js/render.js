@@ -1,16 +1,3 @@
-if (bio.skills.length > 0) {
-  $("#header").append(HTMLskillsStart);
-
-  var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-  $("#skills").append(formattedSkill);
-  var formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-  $("#skills").append(formattedSkill);
-  var formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-  $("#skills").append(formattedSkill);
-  var formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-  $("#skills").append(formattedSkill);
-}
-
 function displayWork() {
   for (job in work.jobs) {
     // create new dive for work experience
@@ -83,6 +70,17 @@ bio.display = function() {
       var formattedContact = formattedContact.replace("%data%", bio.contacts[
         contact]);
       $("#topContacts").append(formattedContact);
+    }
+  };
+
+  var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
+  $("#header").append(formattedBioPic);
+
+  $("#header").append(HTMLskillsStart);
+  for (var skill in bio.skills) {
+    if (bio.hasOwnProperty("skills")) {
+      var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+      $("#skills").append(formattedSkill);
     }
   }
 };
