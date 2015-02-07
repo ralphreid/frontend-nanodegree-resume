@@ -1,6 +1,6 @@
 function displayWork() {
   for (job in work.jobs) {
-    // create new dive for work experience
+    // create new div for work experience
     $("#workExperience").append(HTMLworkStart);
     // concat employer and title
     var formattedEmployer = HTMLworkEmployer.replace("%data%", work.jobs[job]
@@ -76,6 +76,10 @@ bio.display = function() {
   var formattedBioPic = HTMLbioPic.replace("%data%", bio.bioPic);
   $("#header").append(formattedBioPic);
 
+  var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio[
+    "welcome message"]);
+  $("#header").append(formattedWelcomeMsg);
+
   $("#header").append(HTMLskillsStart);
   for (var skill in bio.skills) {
     if (bio.hasOwnProperty("skills")) {
@@ -87,11 +91,8 @@ bio.display = function() {
 
 
 
-// Call functions to render data - created during lessons
+// Call functions to render data
 
 displayWork();
 projects.display();
-
-// Call functions to render data
-
 bio.display();

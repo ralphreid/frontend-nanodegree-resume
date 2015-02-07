@@ -11,7 +11,12 @@ var bio = {
   },
   "bioPic": "images/best.jpg",
   "welcome message": "put welcolme message here",
-  "skills": ["javascript", "html", "ruby", "php"]
+  "skills": [
+    "Daiquiri jungle juice cosmopolitan glen elgin.",
+    "Captain morgan. Painkiller bumbo the last word johnny walker",
+    "Hglen ord b & b. Monte alban cheeky vimto glenfarclas",
+    "Sloe gin haig & haig gin fizz vodka sunrise!"
+  ]
 };
 
 var education = {
@@ -54,6 +59,13 @@ var work = {
     "location": "London, UK",
     "dateStart": "1-2013",
     "dateEnd": "present",
+    "description": "lkajsdslfkjldskjfdslkj"
+  }, {
+    "employer": "One Source",
+    "title": "Software Engineer",
+    "location": "London, UK",
+    "dateStart": "1-2013",
+    "dateEnd": "Present",
     "description": "lkajsdslfkjldskjfdslkj"
   }]
 };
