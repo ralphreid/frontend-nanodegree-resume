@@ -49,7 +49,7 @@ var education = {
     "dates": 2014,
     "url": "http://google.com"
   }],
-  "onlineCourses": [{
+  "onlineClasses": [{
     "title": "akjfdalskjf",
     "school": "Upcase",
     "url": "t.co",

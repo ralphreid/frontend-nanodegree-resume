@@ -51,7 +51,13 @@ function displayEducation() {
         education.schools[
           school].major);
       $(".education-entry:last").append(formattedSchoolMajor);
+    }
+  };
 
+  $("#education").append(HTMLonlineClasses);
+  for (var onlineClass in education.onlineClasses) {
+    if (education.hasOwnProperty("onlineClasses")) {
+      $("#education").append(HTMLschoolStart);
     }
   }
 }
