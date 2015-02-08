@@ -25,6 +25,37 @@ function displayWork() {
   }
 }
 
+function displayEducation() {
+  for (var school in education.schools) {
+    if (education.hasOwnProperty("schools")) {
+      $("#education").append(HTMLschoolStart);
+
+      var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[
+        school].name);
+      var formattedSchoolDegree = HTMLschoolDegree.replace("%data%",
+        education.schools[school].degree);
+      var formattedSchoolNameDegree = formattedSchoolName +
+        formattedSchoolDegree;
+      $(".education-entry:last").append(formattedSchoolNameDegree);
+
+      var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[
+        school].dates);
+      $(".education-entry:last").append(formattedSchoolDates);
+
+      var formattedSchoolLocation = HTMLschoolLocation.replace("%data%",
+        education.schools[
+          school].location);
+      $(".education-entry:last").append(formattedSchoolLocation);
+
+      var formattedSchoolMajor = HTMLschoolMajor.replace("%data%",
+        education.schools[
+          school].major);
+      $(".education-entry:last").append(formattedSchoolMajor);
+
+    }
+  }
+}
+
 function inName(name) {
   name = name.trim().split(" ");
   name[1] = name[1].toUpperCase();
@@ -63,11 +94,6 @@ $('#main').append(internationalizeButton);
 
 // plot map of places I have worked
 $("#mapDiv").append(googleMap);
-
-
-
-// Above created during lessons
-// Below created after lessons
 
 
 bio.display = function() {
@@ -109,3 +135,4 @@ bio.display = function() {
 displayWork();
 projects.display();
 bio.display();
+displayEducation();

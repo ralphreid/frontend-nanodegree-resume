@@ -22,15 +22,31 @@ var bio = {
 var education = {
   "schools": [{
     "name": "University of Illinois",
-    "location": "Champaign, IL, USA",
-    "major": ["Chemistry", "Economics"],
+    "location": "Champaign, Illinois, USA",
+    "degree": "BS",
+    "major": "Chemistry & Economics",
     "dates": 1998,
     "url": "http://google.com"
   }, {
     "name": "Xavier University",
-    "location": "Cincinnati, OH, USA",
-    "major": "MBA",
+    "location": "Cincinnati, Ohio, USA",
+    "degree": "Masters",
+    "major": "MBA with specialism in Information Systems",
     "dates": 2003,
+    "url": "http://google.com"
+  }, {
+    "name": "Framingham State University",
+    "location": "Framingham, Massachusetts, USA",
+    "degree": "Masters",
+    "major": "International Education",
+    "dates": 2002,
+    "url": "http://google.com"
+  }, {
+    "name": "General Assembly",
+    "location": "London, UK",
+    "degree": "WDI - Web Developement Immersion",
+    "major": "Software Enginering",
+    "dates": 2014,
     "url": "http://google.com"
   }],
   "onlineCourses": [{
@@ -49,6 +65,19 @@ var education = {
     "topics": ["TBC1", "TBC2"],
     "url": "http://google.com",
     "dates": 2014
+  }],
+  "confrencesAndCourses": [{
+    "title": "iOS Development",
+    "school": "City University",
+    "url": "t.co",
+    "dates": 2014,
+    "location": "London, UK"
+  }, {
+    "title": "ANOTHER ONE",
+    "school": "City University",
+    "url": "t.co",
+    "dates": 2014,
+    "location": "London, UK"
   }]
 };
 
@@ -72,14 +101,24 @@ var work = {
 
 var projects = {
   "projects": [{
-    "title": "TBCCrrC",
+    "title": "C2 Earth",
     "dates": 2014,
-    "description": "adsfdsffdssfsdfafddsafd",
+    "description": "Soufflé candy canes caramels wafer sweet roll. Apple pie tootsie roll chocolate bar macaroon. Fruitcake cookie chocolate cake donut cheesecake wafer candy cheesecake wafer. Apple pie wafer danish sweet gummi bears candy canes apple pie jelly beans croissant. Halvah dessert wafer oat cake jelly chupa chups sesame snaps marshmallow.",
     "images": [
-      "http://placehold.it/350x150",
-      "http://placehold.it/350x150"
+      "http://placebear.com/200/150",
+      "http://placekitten.com/200/150"
     ],
-    "githubUrl": "http://google.com",
+    "github": "http://google.com",
+    "url": "http://google.com"
+  }, {
+    "title": "POD Point Corporate Website",
+    "dates": 2014,
+    "description": "Soufflé candy canes caramels wafer sweet roll. Apple pie tootsie roll chocolate bar macaroon. Fruitcake cookie chocolate cake donut cheesecake wafer candy cheesecake wafer. Apple pie wafer danish sweet gummi bears candy canes apple pie jelly beans croissant. Halvah dessert wafer oat cake jelly chupa chups sesame snaps marshmallow.",
+    "images": [
+      "http://placebear.com/200/150",
+      "http://placekitten.com/200/150"
+    ],
+    "github": "http://google.com",
     "url": "http://google.com"
   }]
 };
