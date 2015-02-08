@@ -7,8 +7,21 @@ function displayWork() {
       .employer);
     var formattedTitle = HTMLworkTitle.replace("%data%", work.jobs[job].title);
     var formattedEmployerTitle = formattedEmployer + formattedTitle;
-
     $(".work-entry:last").append(formattedEmployerTitle);
+
+    var dates = work.jobs[job].dateStart + " - " + work.jobs[job].dateEnd;
+    var formattedWorkDates = HTMLworkDates.replace("%data%", dates);
+    $(".work-entry:last").append(formattedWorkDates);
+
+    var formattedWorkLocation = HTMLworkLocation.replace("%data%", work.jobs[
+        job]
+      .location);
+    $(".work-entry:last").append(formattedWorkLocation);
+
+    var formattedWorkDescription = HTMLworkDescription.replace("%data%", work
+      .jobs[
+        job].description);
+    $(".work-entry:last").append(formattedWorkDescription);
   }
 }
 

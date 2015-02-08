@@ -57,16 +57,16 @@ var work = {
     "employer": "POD Point",
     "title": "Software Engineer",
     "location": "London, UK",
-    "dateStart": "1-2013",
-    "dateEnd": "present",
-    "description": "lkajsdslfkjldskjfdslkj"
+    "dateStart": "January, 2014",
+    "dateEnd": "Present",
+    "description": "Liquor ipsum dolor sit amet tom and jerry nulla suspendisse. Magna tonic and tequila sazerac vivamus tequila sunrise, convallis diam knockdhu cointreau balmenach habitant grant's captain morgan. Amet netus gravida slammer royale, cosmopolitan jim beam praesent lacus, hendrerit lemon split! Potenti van winkle family reserve netus pharetra, lorem risus ullamcorper, tempor."
   }, {
     "employer": "One Source",
-    "title": "Software Engineer",
+    "title": "blbbbb",
     "location": "London, UK",
-    "dateStart": "1-2013",
-    "dateEnd": "Present",
-    "description": "lkajsdslfkjldskjfdslkj"
+    "dateStart": "October, 2011",
+    "dateEnd": "January, 2012",
+    "description": "Sed screwdriver glendronach adipiscing quisque dewar's scotch whisky manhattan; glenfiddich, montgomery, id netus vesper martini porttitor, glendullan congue, chicago cocktail. Brandy sour fish house punch."
   }]
 };
 
