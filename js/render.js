@@ -113,6 +113,8 @@ projects.display = function() {
   }
 };
 
+$('#main').append(internationalizeButton);
+
 // plot map of places I have worked
 $("#mapDiv").append(googleMap);
 
@@ -130,6 +132,7 @@ bio.display = function() {
       var formattedContact = formattedContact.replace("%data%", bio.contacts[
         contact]);
       $("#topContacts").append(formattedContact);
+      $("#footerContacts").append(formattedContact);
     }
   };
 
