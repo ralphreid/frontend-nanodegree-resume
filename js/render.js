@@ -113,8 +113,6 @@ projects.display = function() {
   }
 };
 
-$('#main').append(internationalizeButton);
-
 // plot map of places I have worked
 $("#mapDiv").append(googleMap);
 
