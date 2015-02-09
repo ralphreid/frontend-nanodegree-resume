@@ -50,21 +50,23 @@ var education = {
     "url": "http://google.com"
   }],
   "onlineClasses": [{
-    "title": "akjfdalskjf",
+    "title": "TBC Professional Development Level TBC",
     "school": "Upcase",
     "url": "t.co",
-    "courses": ["TBC1", "TBC2"],
-    "topics": ["TBC1", "TBC2"],
+    "courses": ["RSPEC", "Haskel"],
+    "topics": ["TDD", "Testing", "Design Patterns"],
     "url": "http://google.com",
-    "dates": 2014
+    "dates": 2014,
+    "logo": "http://placekitten.com/40/40"
   }, {
-    "title": "akjfdalskjf",
+    "title": "Foo Bar",
     "school": "Codeschool",
     "url": "t.co",
-    "courses": ["TBC1", "TBC2"],
-    "topics": ["TBC1", "TBC2"],
+    "courses": ["f00", "bar"],
+    "topics": ["TBCool", "bar"],
     "url": "http://google.com",
-    "dates": 2014
+    "dates": 2014,
+    "logo": "http://placebera.com/40/40"
   }],
   "confrencesAndCourses": [{
     "title": "iOS Development",

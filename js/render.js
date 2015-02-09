@@ -58,6 +58,23 @@ function displayEducation() {
   for (var onlineClass in education.onlineClasses) {
     if (education.hasOwnProperty("onlineClasses")) {
       $("#education").append(HTMLschoolStart);
+
+      var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineClasses[
+        onlineClass].title);
+      var formattedOnlineSchool = HTMLonlineSchool.replace("%data%",
+        education.onlineClasses[onlineClass].school);
+      var formattedOnlineSchool = formattedOnlineTitle + formattedOnlineSchool;
+      $(".education-entry:last").append(formattedOnlineSchool);
+
+      // var formattedOnlineLogo = HTMLonlineLogo.replace("%data%", "test");
+      // $(".education-entry:last").append(formattedOnlineLogo);
+      var formattedOnlineSchoolDates = HTMLonlineDates.replace("%data%", education.onlineClasses[onlineClass].dates);
+      $(".education-entry:last").append(formattedOnlineSchoolDates);
+
+      var formattedOnlineTopics = HTMLonlineTopics.replace("%data%", education.onlineClasses[onlineClass].topics);
+      $(".education-entry:last").append(formattedOnlineTopics);
+
+
     }
   }
 }
